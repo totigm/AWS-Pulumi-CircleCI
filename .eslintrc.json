@@ -8,6 +8,8 @@
     "extends": ["airbnb-typescript", "prettier"],
     "rules": {
         "no-console": "off",
+        "no-new": ["off"],
+        "import/prefer-default-export": ["off"],
         "@typescript-eslint/lines-between-class-members": "off",
         "max-len": ["warn", { "code": 100 }],
         "@typescript-eslint/quotes": ["error", "single"],

@@ -1,0 +1,3 @@
+name: Pulumi-CircleCI
+runtime: nodejs
+description: This is a minimal Pulumi program written in TypeScript that deploys AWS resources every time a push is made to this repository (by a CircleCI pipeline).
